@@ -95,7 +95,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZJ-2F-WGa"/>
+                                    <action selector="add" destination="BYZ-38-t0r" eventType="touchUpInside" id="fsR-0S-3yB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7m-Nj-Mj1">
@@ -110,11 +110,17 @@
                                 <rect key="frame" x="238.5" y="169" width="56.5" height="78.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="subtract" destination="BYZ-38-t0r" eventType="touchUpInside" id="sIk-HG-dx2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdX-BB-lO5">
                                 <rect key="frame" x="238.5" y="255.5" width="56.5" height="79"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="✕"/>
+                                <connections>
+                                    <action selector="multiply" destination="BYZ-38-t0r" eventType="touchUpInside" id="1rl-it-m10"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDk-eA-Tb7">
                                 <rect key="frame" x="303" y="255.5" width="56" height="79"/>
@@ -128,6 +134,9 @@
                                 <rect key="frame" x="238.5" y="342.5" width="56.5" height="79"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="÷"/>
+                                <connections>
+                                    <action selector="divide" destination="BYZ-38-t0r" eventType="touchUpInside" id="cFh-Hr-by9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zr8-Rh-DsR">
                                 <rect key="frame" x="303" y="342.5" width="56" height="79"/>
@@ -141,6 +150,9 @@
                                 <rect key="frame" x="303" y="429.5" width="56" height="78.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="x^y"/>
+                                <connections>
+                                    <action selector="xPowY" destination="BYZ-38-t0r" eventType="touchUpInside" id="LBx-Bw-6mJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvg-rB-EBn">
                                 <rect key="frame" x="16" y="568" width="92.5" height="79"/>
@@ -154,6 +166,9 @@
                                 <rect key="frame" x="238.5" y="568" width="120.5" height="79"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="computeEquation" destination="BYZ-38-t0r" eventType="touchUpInside" id="798-Di-lkw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wy8-AZ-Zir">
                                 <rect key="frame" x="16" y="354.5" width="124.5" height="79"/>
@@ -175,6 +190,9 @@
                                 <rect key="frame" x="238.5" y="429.5" width="56.5" height="78.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="⩲"/>
+                                <connections>
+                                    <action selector="plusEquals" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ts-as-9Z5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANw-hX-hc8">
                                 <rect key="frame" x="84" y="82" width="56.5" height="79"/>
