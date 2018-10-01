@@ -15,6 +15,7 @@
 @end
 
 @implementation ViewController
+//NSString *tempString = nil;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -51,6 +52,17 @@
     x = sqrt(x);
     _textField.text = [NSString stringWithFormat:@"%g",x];
 }
+
+- (IBAction)oneOverX {
+    double x = [_textField.text doubleValue];
+    x = 1 / x;
+    _textField.text = [NSString stringWithFormat:@"%g",x];
+}
+
+//- (IBAction)add {
+//    tempString = _textField.text;
+//
+//}
 
 
 @end
