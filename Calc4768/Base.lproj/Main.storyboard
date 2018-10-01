@@ -96,6 +96,9 @@
                                 <rect key="frame" x="259" y="137.5" width="45" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="√"/>
+                                <connections>
+                                    <action selector="squareRootOfX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lKK-aG-JcM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JY7-wt-Jfj">
                                 <rect key="frame" x="205.5" y="137.5" width="45.5" height="48"/>
@@ -111,6 +114,9 @@
                                 <rect key="frame" x="259" y="193.5" width="45" height="47.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="x^2"/>
+                                <connections>
+                                    <action selector="xSquared:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Coa-s1-I4j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3T-wF-wvb">
                                 <rect key="frame" x="205.5" y="249" width="45.5" height="47.5"/>
@@ -121,6 +127,9 @@
                                 <rect key="frame" x="259" y="249" width="45" height="47.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="x^3"/>
+                                <connections>
+                                    <action selector="xCubed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4aL-3k-5N2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRc-va-uae">
                                 <rect key="frame" x="259" y="304.5" width="45" height="48"/>

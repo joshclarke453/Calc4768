@@ -34,4 +34,23 @@
     _textField.text = [_textField.text substringToIndex:_textField.text.length-1];
 }
 
+- (IBAction)xSquared:(UIButton *)sender {
+    double x = [_textField.text doubleValue];
+    x = pow(x, 2);
+    _textField.text = [NSString stringWithFormat:@"%g",x];
+}
+
+- (IBAction)xCubed:(UIButton *)sender {
+    double x = [_textField.text doubleValue];
+    x = pow(x, 3);
+    _textField.text = [NSString stringWithFormat:@"%g",x];
+}
+
+- (IBAction)squareRootOfX:(UIButton *)sender {
+    double x = [_textField.text doubleValue];
+    x = sqrt(x);
+    _textField.text = [NSString stringWithFormat:@"%g",x];
+}
+
+
 @end
