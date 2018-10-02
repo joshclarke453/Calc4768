@@ -1,8 +1,9 @@
 //
 //  ViewController.m
 //  Calc4768
+//  4768 Assignment 1
 //
-//  Created by Joshua on 2018-09-28.
+//  Created by Joshua Clarke on 2018-09-28.
 //  Copyright © 2018 jtc260. All rights reserved.
 //
 
