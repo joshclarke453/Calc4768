@@ -1,2 +1,1 @@
-# Calc4768
-# Assignment 1 Calculator
+# Assignment 1, CS4768, Calculator iOS App written in Objective C
